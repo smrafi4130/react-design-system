@@ -1,0 +1,32 @@
+{
+  "bg": {
+    "canvas": { "$value": "{color.neutral.0}" },
+    "subtle": { "$value": "{color.neutral.50}" },
+    "muted": { "$value": "{color.neutral.100}" },
+    "overlay": { "$value": "rgb(15 23 42 / 0.5)" }
+  },
+  "fg": {
+    "default": { "$value": "{color.neutral.900}" },
+    "muted": { "$value": "{color.neutral.600}" },
+    "on-accent": { "$value": "{color.neutral.0}" }
+  },
+  "border": {
+    "default": { "$value": "{color.neutral.300}" },
+    "strong": { "$value": "{color.neutral.500}" }
+  },
+  "accent": {
+    "default": { "$value": "{color.blue.600}" },
+    "hover": { "$value": "{color.blue.700}" }
+  },
+  "danger": {
+    "default": { "$value": "{color.red.600}" },
+    "hover": { "$value": "{color.red.700}" },
+    "fg": { "$value": "{color.red.700}" }
+  },
+  "success": {
+    "fg": { "$value": "{color.green.700}" }
+  },
+  "focus": {
+    "ring": { "$value": "{color.blue.600}" }
+  }
+}
