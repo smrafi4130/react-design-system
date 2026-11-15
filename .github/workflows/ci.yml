@@ -20,7 +20,7 @@ jobs:
       - run: pnpm build
       - run: pnpm test
       - run: pnpm build-storybook
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with: { name: storybook-static, path: packages/ui/storybook-static }
   visual:
     runs-on: ubuntu-latest
@@ -35,6 +35,6 @@ jobs:
       - run: pnpm build
       - run: pnpm build-storybook
       - run: pnpm test:visual
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         if: failure()
         with: { name: visual-diffs, path: packages/ui/test-results }
