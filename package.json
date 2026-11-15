@@ -12,7 +12,7 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "typecheck": "pnpm -r run typecheck",
+    "typecheck": "pnpm --filter @smrafi/tokens build && pnpm -r run typecheck",
     "test": "pnpm -r run test",
     "storybook": "pnpm --filter @smrafi/ui storybook",
     "build-storybook": "pnpm --filter @smrafi/ui build-storybook",
