@@ -1,0 +1,6 @@
+dist
+storybook-static
+pnpm-lock.yaml
+coverage
+**/__screenshots__
+CHANGELOG.md
