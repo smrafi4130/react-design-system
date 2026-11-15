@@ -1,6 +1,6 @@
 {
   "name": "@smrafi/tokens",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Design tokens (primitive + semantic, light/dark) compiled to CSS custom properties and typed JS.",
   "license": "MIT",
   "type": "module",
