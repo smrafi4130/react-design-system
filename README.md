@@ -1,5 +1,7 @@
 # react-design-system
 
+[![CI](https://github.com/smrafi4130/react-design-system/actions/workflows/ci.yml/badge.svg)](https://github.com/smrafi4130/react-design-system/actions/workflows/ci.yml)
+
 A small, token-driven React component library built around **accessibility as a tested property**, not a checklist.
 Two versioned packages in a pnpm monorepo, documented in Storybook.
 
